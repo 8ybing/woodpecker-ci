@@ -3,7 +3,7 @@ clone:
     image: woodpeckerci/plugin-git
     settings:
       use-ssh: true
-      remote-ssh: git@github.com:8ybing/woodpecker-ci.git
+      remote-ssh: ssh://git@ssh.github.com:22/8ybing/woodpecker-ci.git
 
 when:
   - event: push
